@@ -1,2 +1,2 @@
 # Productos-
-Pagina Dedicada al comercio elecctronico de productro de hogar y electronicos
+Pagina Dedicada al comercio elecctronico de productos de hogar y electronicos
