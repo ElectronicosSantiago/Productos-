@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet"  href="detalles.css">
+    
+    <style type="text/css">
+        .product-small-img img{width: 100%; border: 1px solid rgba (0,0,0,.2); padding: 8px;margin: .5px .5px .5px; cursor: pointer;}
+        .product-small-img{width: 25%;display: flex}
+        .img-container img{height: 350px}
+        .img-container{padding: 10px;width: 45%}
+    </style>
+</head>
+
+<body>
+
+    <div id="imagenes">
+		<table>
+			<thead>
+				<tr>
+					<th>Descripción</th>
+				</tr>
+			</thead>
+
+			<tr>
+				<td>
+            ASUS ROG Strix G15 Electro, 15", GeForce GTX 1650 Ti with ROG Boost Intel, Core i5 10a gen, 16GB RAM, 512 
+            SSD, G512LI-BLACK.
+				</td>
+			</tr>
+			<tr>
+				<td>
+            Verdaderamente Gamer: Equipada con la GPU Nvidia GeForce GTX 1650 Ti, que te dará gráficos increíblemente fotorrealistas. ¡Usa Twitch, Discord, Mixer o NiMO Tv sin ningún problema!
+				</td>
+			</tr>
+			<tr>
+				<td>
+            Máximo desempeño: Con el máximo desempeño del Procesador Intel Core i5 de décima generación, podrás realizar cualquier tarea de manera fluida.
+				</td>
+			</tr>
+			<tr>
+				<td>
+            Memoria expandible: ¿Necesitas mayor potencia? Memoria RAM de 16GB, expandible hasta 32G.
+				</td>
+			</tr>
+            <tr>
+				<td>
+            Almacenamiento SSD: Siente toda la velocidad de su unidad de estado sólido.
+				</td>
+			</tr>
+            <tr>
+				<td>
+            Enfriamiento inteligente: Innovaciones de metal líquido, que mantendrán tu laptop con un rendimiento al máximo
+				</td>
+			</tr>
+            <tr>
+				<td>
+           Teclado RGB y NumberPad: Teclado retroiluminado con el que podrás alumbrar tus mejores movimientos a cualquier hora del día, y NumberPad para una mejor experiencia gamer. 
+				</td>
+			</tr>
+		</table>
+        
+    </div>
+    
+            
+    <div id="ficha" class="product">
+        <div class="img-container">
+            <img id="imageBox" src="imagenes/imageneslaptop/1.jpg">
+        </div>
+        <div class="product-small-img">
+            <img src="imagenes/imageneslaptop/2.jpg" onclick="myFuction(this)">
+            <img src="imagenes/imageneslaptop/3.jpg" onclick="myFuction(this)">
+            <img src="imagenes/imageneslaptop/4.jpg" onclick="myFuction(this)">
+        </div>
+    </div>  
+      
+    
+    <div id="contenedor">
+    <a href="checkout.html" class="btnAzul">Comprar</a>
+    </div>
+    
+    <script type="text/javascript">
+        function myFuction(smallImg){
+            var fulling=document.getElementById("imageBox");
+            fulling.src=smallImg.src;
+        }
+    </script>  
+    
+</body>
+</html>

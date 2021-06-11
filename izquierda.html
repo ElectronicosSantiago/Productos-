@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-witdh, user-scalable-no, initial-scale-1.0, maximum-scale-1.0">
+    <title>Sidebarr Dashboard Template</title>
+    <link rel="stylesheet" href="estilos/sidemenu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <!--Wrapper start-->
+    <div class="wrapper">
+        <!--header menu Start-->
+        <div class="header">
+            <div class="header-menu">
+                <div class="title"><span>"Santiago"</span></div>
+                <div class="sidebar-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul>
+                    <li><a href="#"><i class="fas fa-search"></i></a></li>
+                    <li><a href="#"><i class="fas fa-bell"></i></a></li>
+                    <li><a href="#"><i class="fas fa-power-off"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--header menu End-->
+        <!--Slider Start-->
+        <div class="sidebar">
+           <div class="sidebar-menu">
+               <center class="profile">
+                   <img src="imagenes/j.png" alt="">
+                   <p>Jaime Santiago Santiago</p>
+               </center>
+               <li class="item">
+                   <a href="#" class="menu-btn">
+                       <i class="fas fa-desktop"></i><span>Dashboard</span>
+                   </a>
+               </li>
+               <li class="item" id="profile">
+                   <a href="#profile" class="menu-btn">
+                       <i class="fas fa-circle"></i><span>profile<i class="fas fa-chevron-down drop-down"></i></span>
+                   </a>
+                   <div class="sub-menu">
+                       <a href="#"i><i class="fas fa-image"></i><span>Picture</span></a>
+                       <a href="#"i><i class="fas fa-address-card"></i><span>Info</span></a>
+                   </div>
+               </li>
+               <li class="item" id="messages">
+                   <a href="#messages" class="menu-btn">
+                       <i class="fas fa-envelope"></i><span>messages<i class="fas fa-chevron-down drop-down"></i></span>
+                   </a>
+                   <div class="sub-menu">
+                       <a href="#"i><i class="fas fa-envelope"></i><span>New</span></a>
+                       <a href="#"i><i class="fas fa-envelope-square"></i><span>Sent</span></a>
+                       <a href="#"i><i class="fas fa-exclamation-circle"></i><span>Spam</span></a>
+                   </div>
+               </li>
+               <li class="item" id="Settings">
+                   <a href="#Settings" class="menu-btn">
+                       <i class="fas fa-cog"></i><span>Settings<i class="fas fa-chevron-down drop-down"></i></span>
+                   </a>
+                   <div class="sub-menu">
+                       <a href="#"i><i class="fas fa-lock"></i><span>Password</span></a>
+                       <a href="#"i><i class="fas fa-language"></i><span>Language</span></a>
+                   </div>
+               </li>
+               <li class="item">
+                   <a href="#" class="menu-btn">
+                       <i class="fas fa-info-circle"></i><span>About</span>
+                   </a>
+               </li>
+           </div>
+            
+        </div>
+        <!--Slider End-->
+        
+        
+        
+        <!--main container Start-->
+        <div class="main-container">
+       
+        <div class="containersp">
+           
+            <div class="card"></div>
+                <img src="imagenes/teclado-removebg-preview.png" alt="">
+                <h4>Teclado Gaming</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, placeat, tenetur. Quia consectetur nemo dolorem eaque quam obcaecati, ut dolores facere sit. Cumque voluptatibus voluptatum fuga deserunt eos assumenda officia.</p>
+                <a href="#">Comprar</a>
+            </div>
+            
+            <div class="card"></div>
+                <img src="imagenes/laptop_gaming-removebg-preview.png" alt="">
+                <h4>Laptop Gaming</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, placeat, tenetur. Quia consectetur nemo dolorem eaque quam obcaecati, ut dolores facere sit. Cumque voluptatibus voluptatum fuga deserunt eos assumenda officia.</p>
+                <a href="#">Comprar</a>
+            </div>
+            
+            
+            <div class="card"></div>
+                <img src="imagenes/mouse_gaming-removebg-preview.png" alt="">
+                <h4>Laptop Gaming</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, placeat, tenetur. Quia consectetur nemo dolorem eaque quam obcaecati, ut dolores facere sit. Cumque voluptatibus voluptatum fuga deserunt eos assumenda officia.</p>
+                <a href="#">Comprar</a>
+            </div>
+            
+            
+        </div>
+        <!--main container End-->
+        
+        
+        
+    </div>
+    <!--Wrapper End-->
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $(".sidebar-btn").click(function(){
+            $(".wrapper").toggleClass("collapse");
+        });
+        });
+    </script>
+    
+</body>
+</html>
